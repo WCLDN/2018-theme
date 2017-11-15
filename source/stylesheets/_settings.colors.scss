@@ -1,0 +1,122 @@
+/* =Settings: Colors
+===================================================== */
+
+/* Local (only to be used in this file) */
+$local-blue: #00aeef;
+$local-offblack: #3e3e3e;
+$local-ash: #dbdbdb;
+$local-white: #ffffff;
+
+/* Brand */
+$color-brand-primary:             $local-blue;
+$color-brand-secondary:           $local-offblack;
+
+
+/*
+ * Text
+ */
+
+$color-text:                      $local-offblack;
+$color-text-weak:                 rgba($local-offblack,.6);
+$color-text-strong:               rgba($local-offblack,.9);
+$color-text-invert:               rgba(255,255,255,.75);
+$color-text-weak-invert:          rgba(255,255,255,.6);
+$color-text-strong-invert:        rgba(255,255,255,.9);
+
+
+/*
+ * Links
+ */
+
+$color-link:                 $local-blue;
+$color-link-hover:           mix($color-link, #000, 70%);
+$color-link-focus:           mix($color-link, #000, 70%);
+$color-link-visited:         mix($color-link, #fff, 50%);
+
+
+/*
+ * Alternate links
+ */
+
+$color-link-alt:             $local-ash;
+$color-link-alt-hover:       mix($color-link-alt, #000, 90%);
+$color-link-alt-focus:       mix($color-link-alt, #000, 70%);
+$color-link-alt-visited:     mix($color-link-alt, #fff, 50%);
+
+/*
+ * Shades of grey
+ */
+
+$color-grey-10:                   mix($local-offblack, #fff, 10%); // Light
+$color-grey-20:                   mix($local-offblack, #fff, 20%);
+$color-grey-30:                   mix($local-offblack, #fff, 30%);
+$color-grey-40:                   mix($local-offblack, #fff, 40%);
+$color-grey-50:                   mix($local-offblack, #fff, 50%);
+$color-grey-60:                   mix($local-offblack, #fff, 60%);
+$color-grey-70:                   mix($local-offblack, #fff, 70%);
+$color-grey-80:                   mix($local-offblack, #fff, 80%);
+$color-grey-90:                   mix($local-offblack, #fff, 90%);
+$color-grey-100:                  mix($local-offblack, #fff, 100%);  // Dark
+
+
+/*
+ * Border
+ */
+
+$color-border-normal:             $local-blue;
+
+
+/*
+ * Messages
+ */
+
+$color-message-default:           #eeeeee;
+$color-message-success:           #00a664;
+$color-message-warning:           #ffcb05;
+$color-message-danger:            #f04e3e;
+
+
+/*
+ * Forms
+ */
+
+$color-input-regular:             mix($local-ash, #fff, 25%);
+$color-input-focus:               mix($local-ash, #fff, 50%);
+$color-input-success:             #00a664;
+$color-input-error:               $color-message-danger;
+$color-input-required:            mix($color-message-danger, #000, 75%);
+$color-input-checkbox:            mix($local-ash, #fff, 25%);
+$color-input-checkbox-active:     $color-brand-secondary;
+$color-input-radio:               mix($local-ash, #fff, 25%);
+$color-input-radio-active:        $color-brand-secondary;
+
+
+/*
+ * Buttons
+ */
+
+$color-button-regular:            $color-link;
+$color-button-regular-hover:      $color-link-hover;
+$color-button-secondary:          $local-ash;
+$color-button-secondary-hover:    darken($local-ash, 5%);
+$color-button-inactive:           #eeeeee;
+
+
+/*
+ * Helper colors
+ */
+
+$color-text-heading-1:            $local-blue;
+$color-text-heading-2:            $local-blue;
+$color-text-heading-3:            $local-blue;
+$color-text-heading-4:            $local-blue;
+$color-text-paragraph:            $color-text;
+
+
+/*
+ * Explicit colors
+ */
+
+$color-explicit-red:              #ed1c24;
+$color-explicit-green:            #00a651;
+$color-explicit-blue:             #034ea2;

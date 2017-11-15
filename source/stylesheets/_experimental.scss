@@ -1,0 +1,44 @@
+/* =Experimental
+===================================================== */
+
+/*
+ * Temp
+ */
+
+
+.main-navigation {
+
+  display: none;
+
+}
+
+
+/*
+ * Speaker page
+ *
+ * Component description
+ */
+
+.wcb_speaker {
+
+  .entry-meta {
+
+    @include visually-hidden();
+
+  }
+
+  // Image
+  .speaker-avatar {
+
+    float: left;
+    margin: $unit-xs $unit-s $unit-xs 0;
+
+  }
+
+  // Title
+  .speaker-sessions {}
+
+  // List
+  .speaker-session-names {}
+
+}

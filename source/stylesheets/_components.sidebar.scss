@@ -1,0 +1,40 @@
+/* =Sidebar
+===================================================== */
+
+#secondary .widget {
+    @include border();
+    margin-bottom: rem(35);
+  }
+
+
+
+.sidebar-card {
+  position: relative;
+
+  img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 0 rem(14) rem(14);
+    color: #dbdbdb;
+    font-family: omnes-pro,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "B, OOK TIC" */
+    letter-spacing: 1.2px;
+  }
+}

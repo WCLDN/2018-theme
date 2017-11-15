@@ -1,0 +1,36 @@
+/* =Settings: Colors
+===================================================== */
+
+// Typography
+//
+// Main fonts for the WordCamp London 2018 theme are [Proxima Nova](https://typekit.com/fonts/proxima-nova) and [Omnes](https://typekit.com/fonts/omnes).
+//
+// **Omnes** is used as the font for WordCamp London logo and for all headlines.
+//
+// **Proxima Nova** is used for body text, buttons, forms etc.
+//
+// Fonts are served from Typekit.
+//
+// Style guide: 1.typography
+
+/* Modular scale */
+$ms-base: 1em;
+$ms-ratio: 1.25;
+
+/* Fonts */
+$font-brand-primary:              "proxima-nova", $helvetica;
+$font-brand-secondary:            "omnes-pro", $helvetica;
+
+/* Font use case */
+$font-body:                       $font-brand-primary;
+$font-headline:                   $font-brand-secondary;
+
+/* Font weights */
+$hairline:                        100;
+$thin:                            200;
+$light:                           300;
+$regular:                         400;
+$medium:                          500;
+$semibold:                        600;
+$bold:                            700;
+$black:                           900;

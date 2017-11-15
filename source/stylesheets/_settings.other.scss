@@ -1,0 +1,41 @@
+/* =Settings: Other
+===================================================== */
+
+/* Z-index */
+$z-index-navigation-submenu:      310;
+
+/* Units */
+$unit-xs:                       rem(8);
+$unit-s:                        rem(16);
+$unit-m:                        rem(24);
+$unit-l:                        rem(32);
+$unit-xl:                       rem(48);
+$unit-default:                  rem(24);
+
+/* Container max width */
+$container-max-width:           rem(1400);
+
+/* Border radius */
+$border-radius-small:           rem(3);
+
+$border-width:                  rem(10);
+
+/* Box shadow */
+$box-shadow-small:              0 rem(1) rem(3) 0 rgba(0,0,0,.2);
+
+/* Logo size */
+$site-logo-width:               323px; // Width of the image/element
+$site-logo-height:              95px; // Height of the image/element
+$site-logo-proportion:          1; // Change the logo proportion in header e.g. .5 will reduce the logo size by half.
+$site-logo-path:                url('http://wordcamp.dev/wp-content/uploads/sites/1/2017/11/wordcamp-logo.png'); // Logo image
+
+/* Media queries */
+$extra-small-value:             24em; // 384px
+$small-value:                   37.5em; // 600px
+$medium-value:                  48em; // 768px
+$large-value:                   62em; // 992px
+$extra-large-value:             80em; // 1280px
+
+$widget-footer:                 url("https://2018.london.wordcamp.org/files/2017/11/widget-footer.png");
+$page-footer:                   url('https://2018.london.wordcamp.org/files/2017/11/page-footer.png');
+$content-footer:                url("https://2018.london.wordcamp.org/files/2017/11/content-footer.png")
