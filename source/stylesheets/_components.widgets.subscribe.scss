@@ -1,0 +1,76 @@
+/* =Subscribe widget
+===================================================== */
+
+// Widget: Subscribe
+//
+// Subscribe jetpack widget
+//
+// Markup: widget-subscribe.html
+//
+// Style guide: 6.widget.subscribe
+
+.jetpack_subscription_widget {
+
+  text-align: center;
+  padding: rem(14);
+
+  p {
+
+    margin: 0;
+
+  }
+
+  input[type="email"] {
+
+    width: 100%!important; // Override jetpack CSS
+    @include border();
+
+  }
+
+  input[type="submit"] {
+
+    width: 100%;
+    color: #fff;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus,
+    &:active {
+
+      color: $color-brand-secondary;
+
+    }
+
+  }
+
+  #subscribe-text {
+
+    margin-bottom: $unit-m;
+
+  }
+
+  #subscribe-email,
+  #subscribe-submit {
+
+    display: inline-block;
+    width: rem(200);
+    margin: rem(4);
+    vertical-align: top;
+
+  }
+
+  #subscribe-email {
+
+    @include breakpoint(small) {
+
+      width: rem(400);
+
+    }
+
+  }
+
+  #subscribe-submit {
+
+  }
+
+}
