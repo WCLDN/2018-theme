@@ -53,24 +53,15 @@
   #subscribe-submit {
 
     display: inline-block;
-    width: rem(200);
-    margin: rem(4);
+    width: 100%;
+    margin: 0 0 rem(10);
     vertical-align: top;
 
   }
 
-  #subscribe-email {
-
-    @include breakpoint(small) {
-
-      width: rem(400);
-
-    }
-
-  }
-
   #subscribe-submit {
-
+    width: 100%;
+    margin: 0;
   }
 
 }
