@@ -24,6 +24,7 @@
 
     width: 100%!important; // Override jetpack CSS
     @include border();
+    border-width: 3px;
 
   }
 

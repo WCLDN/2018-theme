@@ -15,11 +15,9 @@
 
   margin-bottom: $unit-default;
   padding-bottom: $unit-default;
-  border-bottom: 6px double $color-border-normal;
+  border-bottom: 6px solid $color-border-normal;
 
 }
-
-.entry-header {}
 
 .entry-content {
 
@@ -54,7 +52,7 @@
 
   a {
 
-    color: $color-link-alt;
+    color: $local-ash;
 
     &:hover,
     &:focus,
