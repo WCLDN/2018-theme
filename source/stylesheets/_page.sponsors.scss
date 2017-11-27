@@ -1,0 +1,44 @@
+/* =Sponsors
+===================================================== */
+
+.entry-content .wcorg-sponsor {
+
+  margin-bottom: 0;
+  padding: $unit-xs;
+
+  img {
+
+    display: block;
+    margin: 0 auto;
+    max-height: rem(140);
+
+  }
+
+  h3 {
+
+    display: none;
+
+  }
+
+  a {
+
+    background-color: #fff;
+
+    img {
+
+      @include transition-fast();
+
+    }
+
+    &:hover img,
+    &:focus img,
+    &:active img {
+
+      filter:  grayscale(100%);
+      // filter:  sepia(100%);
+      opacity: .75;
+
+    }
+
+  }
+}
