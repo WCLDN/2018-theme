@@ -31,7 +31,7 @@
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.45px;
-  color: $color-link-alt;
+  color: $local-white;
 
   border-radius: 0;
   background-color: $local-offblack;
@@ -43,7 +43,7 @@
   &:focus,
   &.focus {
 
-    color: $color-link-alt;
+    color: $local-white;
     background-color: $local-offblack;
 
   }
@@ -80,7 +80,7 @@
 
   &[aria-expanded="true"] {
 
-    color: $color-link-alt;
+    color: $local-white;
 
     &:after {
 
@@ -215,7 +215,7 @@
 .menu-item a {
 
   display: block;
-  color: $color-link-alt;
+  color: $local-white;
   padding: $unit-xs $unit-s;
 
   text-decoration: none;
@@ -226,7 +226,7 @@
   &:focus,
   &.focus {
 
-    color: $color-link-alt;
+    color: $local-white;
     background-color: $local-offblack;
 
   }
@@ -247,7 +247,7 @@
 
 .current-menu-item > a {
 
-  color: $color-link-alt;
+  color: $local-white;
   background-color: $local-offblack;
 
 }
@@ -308,7 +308,7 @@
     &:hover > a,
     &.focus > a {
 
-      color: $color-link-alt;
+      color: $local-white;
       background-color: $local-offblack;
 
       &:after {
@@ -383,7 +383,7 @@
 
       padding: rem(10) $unit-s;
 
-      color: $color-link-alt;
+      color: $local-white;
 
     }
 
