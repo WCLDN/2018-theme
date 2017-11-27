@@ -17,41 +17,41 @@
  * <header id="masthead" class="site-header" role="banner"> ... </header>
  */
 
-.site-header {
+.site-branding {
 
-  position: relative;
-  background-color: $local-white;
+  position: absolute;
+  top:0;
+  width: 100%;
+  background: $local-white;
 
-  .site-title,
+  .site-title a {
+    width: ($site-logo-width * $site-logo-proportion);
+    height: ($site-logo-height * $site-logo-proportion);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: $unit-m;
+    margin-bottom: $unit-m;
+
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: $site-logo-path;
+    background-size: 100%;
+    text-indent: -999999px;
+    max-width: 90%;
+    display: block;
+  }
+
   .site-description,
   .screen-reader-text {
 
     @include visually-hidden();
 
   }
+
 }
 
-.site-header:before {
-
-  position: relative; // Add position: relative to keep the light beams from leaking out
-  overflow: hidden; // Add overflow: hidden to keep light beams from leaking out
-
-  width: ($site-logo-width * $site-logo-proportion);
-  height: ($site-logo-height * $site-logo-proportion);
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: $unit-m;
-  margin-bottom: $unit-m;
-
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-image: $site-logo-path;
-  background-size: 100%;
-
-  content: "";
-  display: block;
-  max-width: 90%;
-
+#header-navigation {
+  margin-top: (($site-logo-height * $site-logo-proportion) + ($unit-m * 2)) !important;
 }
 
 .custom-header {
